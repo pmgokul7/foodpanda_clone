@@ -1,0 +1,214 @@
+
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    font-family: sans-serif;
+    width: 100%;
+    border: none;
+    outline: none;}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 15px 170px;
+
+    align-items: center;
+    position: fixed;
+    width:80%;
+    
+}
+.navbar a{
+    text-decoration: none;
+    color: #E670A4;
+    
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 15px;
+}
+.country{
+    user-select: none;
+    border: none;
+    color: #E670A4;
+    outline: none;
+    cursor: pointer;
+   
+    font-size: 16px;
+}
+
+
+
+.main{
+    /* padding-top:60px; */
+    background-image: url("./foodpanda/foodpanda-model-opt-scaled.jpg");
+    background-position: center;
+    background-size: cover;
+    background-origin: border-box;
+    /* background-attachment: fixed;     */
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    width: inherit;
+    justify-content: space-between;
+    align-items: center;
+   
+    height: 100vh;
+}
+.main > h1{
+
+    font-size: 42px;
+    text-align: center;
+    letter-spacing:2px;
+    color: #fff;
+    max-width: 800px;
+    font-weight: 500;
+    padding-top: 300px;
+}
+.flags img{
+    border-radius: 5px;
+    height: 30px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+.flags h4{
+    color: rgb(239, 237, 237);
+    font-size: 12px;
+    font-weight: 800;
+
+}
+.flags{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color:#ababab;
+    width:98.9vw;
+    
+    
+}
+.about_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+button{
+    background-color: #D70F64;
+    outline: none;
+    border: none;
+    height: 48px;
+    width: 290px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.about_section>h4{
+    max-width: 800px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28.8px;
+    text-align: center;
+    margin: 25px 0;
+}
+
+
+
+
+
+.join{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+    font-size: 18px;
+  
+    color: #fff;
+    background-image: url("./foodpanda/foodpanda-rider-opt.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h4{
+    font-weight: 300;
+    margin: 30px 0;
+    max-width: 850px;
+    line-height: 30px;
+    text-align: center;
+
+}
+
+
+.press{
+    height: 100vh;
+    background-image: url("./foodpanda/foodpanda-tuna-opt-scaled.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    font-size: 18px;
+  
+    color: #fff;
+}
+
+.contact{
+    height:100vh;
+    background-color: #D70F64;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    font-size: 18px;
+    color: #fff;
+}
+.contact>h1{
+    color: #fff;
+}
+.contact>button{
+    background-color: #fff;
+    color: #D70F64;
+}
+
+h1{
+    color: #D70F64;
+    font-weight: 400;
+}
+
+
+footer{
+    display: flex;
+    padding: 30px 90px;
+    justify-content: space-between;
+
+}
+.left{
+    /* background-color: #D70F64; */
+    display: flex;
+    flex-direction: column;
+   align-items: baseline;
+}
+.right{
+    display: flex;
+   flex-direction: column;
+   align-items: flex-end;
+}
+footer  h4{
+    margin: 0;
+}
+.text{
+    display: flex;
+    gap: 10px;
+}
