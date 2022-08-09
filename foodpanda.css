@@ -73,7 +73,8 @@ body{
     margin-left: 8px;
     cursor: pointer;
 }
-.flags h4{
+.flags h5{
+   padding: 20px;
     color: rgb(239, 237, 237);
     font-size: 12px;
     font-weight: 800;
