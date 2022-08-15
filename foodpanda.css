@@ -8,6 +8,7 @@ body{
     font-family: sans-serif;
     width: 100%;
     border: none;
+   
     outline: none;}
 
 .navbar{
@@ -196,7 +197,7 @@ footer{
 
 }
 .left{
-    /* background-color: #D70F64; */
+    
     display: flex;
     flex-direction: column;
    align-items: baseline;
